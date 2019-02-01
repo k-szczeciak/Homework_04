@@ -28,10 +28,10 @@ dodaj bilet:<br>
             <option value="${lang.name}">${lang.name}</option>
         </c:forEach>
     </select><br>
-    <input type="datetime-local" name="timeDep" placeholder="data wylotu"><br>
-    <input type="datetime-local" name="timeAri" placeholder="data przylotu"><br>
-    <input type="number" name="timeFlight" min="0" step="1" placeholder="godziny"><br>
-    <input type="number" name="price" min="0" step="0.01" placeholder="cena"><br>
+    <input type="datetime-local" name="timeDep" placeholder="data wylotu"><br><br>
+    <input type="datetime-local" name="timeAri" placeholder="data przylotu"><br><br>
+    <input type="number" name="timeFlight" min="0" step="1" placeholder="godziny"><br><br>
+    <input type="number" name="price" min="0" step="0.01" placeholder="cena"><br><br>
     <input type="submit" value="submit">
 </form>
 
